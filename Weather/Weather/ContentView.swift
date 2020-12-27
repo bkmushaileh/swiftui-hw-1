@@ -30,8 +30,8 @@ struct ContentView: View {
                 }
                     
                 
-                    
-                
+        
+
                 HStack{
                     Group{
                     Text("Tuesday")
@@ -46,6 +46,8 @@ struct ContentView: View {
                     Text("31")
                     Text("24")
                 }.padding()
+                
+            ScrollView(Axis.Set.horizontal, showsIndicators: true){
                 HStack{
                     Text("Now")
                         .offset(x: -25)
@@ -116,16 +118,18 @@ struct ContentView: View {
 
                     Text("22°")
                         .offset(x: 35)
-                   
+                    
                 
 
                 }
+                
+            }.padding()
 
                 
                 HStack{
                     
                     Text("Wednesday")
-                        .fontWeight(.bold)
+                        .font(.custom("Staatliches-Regular", size: 20))
                     Spacer()
                     Image(systemName: "cloud.sun.rain")
                     Spacer()
@@ -138,7 +142,7 @@ struct ContentView: View {
                 }.padding(.top)
                 HStack{
                     Text("Wednesday")
-                        .fontWeight(.bold)
+                        .font(.custom("Staatliches-Regular", size: 20))
                     Spacer()
                     Image(systemName: "cloud.sun.rain")
                     Spacer()
@@ -151,7 +155,7 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Wednesday")
-                        .fontWeight(.bold)
+                        .font(.custom("Staatliches-Regular", size: 20))
                     Spacer()
                     Image(systemName: "cloud.sun.rain")
                     Spacer()
@@ -163,7 +167,7 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Wednesday")
-                        .fontWeight(.bold)
+                        .font(.custom("Staatliches-Regular", size: 20))
                     Spacer()
                     Image(systemName: "cloud.sun.rain")
                     Spacer()
@@ -175,7 +179,7 @@ struct ContentView: View {
                 }
                 HStack{
                     Text("Wednesday")
-                        .fontWeight(.bold)
+                        .font(.custom("Staatliches-Regular", size: 20))
                     Spacer()
                     Image(systemName: "cloud.sun.rain")
                     Spacer()
